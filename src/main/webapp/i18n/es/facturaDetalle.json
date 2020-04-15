@@ -1,0 +1,24 @@
+{
+  "gatewaystoreApp": {
+    "facturaDetalle": {
+      "home": {
+        "title": "Factura Detalles",
+        "createLabel": "Crear nuevo Factura Detalle",
+        "createOrEditLabel": "Crear o editar Factura Detalle",
+        "notFound": "Ningún Factura Detalles encontrado"
+      },
+      "created": "Un nuevo Factura Detalle ha sido creado con el identificador {{ param }}",
+      "updated": "Un Factura Detalle ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Factura Detalle ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Factura Detalle {{ id }}?"
+      },
+      "detail": {
+        "title": "Factura Detalle"
+      },
+      "productoId": "Producto Id",
+      "cantidad": "Cantidad",
+      "precioUnictario": "Precio Unictario"
+    }
+  }
+}

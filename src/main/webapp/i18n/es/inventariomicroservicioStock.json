@@ -1,0 +1,27 @@
+{
+  "gatewaystoreApp": {
+    "inventariomicroservicioStock": {
+      "home": {
+        "title": "Stocks",
+        "createLabel": "Crear nuevo Stock",
+        "createOrEditLabel": "Crear o editar Stock",
+        "notFound": "Ningún Stocks encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Stock {{ id }}?"
+      },
+      "detail": {
+        "title": "Stock"
+      },
+      "cantidad": "Cantidad",
+      "producto": "Producto"
+    }
+  },
+  "inventariomicroservicioApp": {
+    "inventariomicroservicioStock": {
+      "created": "Un nuevo Stock ha sido creado con el identificador {{ param }}",
+      "updated": "Un Stock ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Stock ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

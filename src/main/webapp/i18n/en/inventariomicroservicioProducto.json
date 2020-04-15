@@ -1,0 +1,27 @@
+{
+  "gatewaystoreApp": {
+    "inventariomicroservicioProducto": {
+      "home": {
+        "title": "Productos",
+        "createLabel": "Create a new Producto",
+        "createOrEditLabel": "Create or edit a Producto",
+        "notFound": "No Productos found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Producto {{ id }}?"
+      },
+      "detail": {
+        "title": "Producto"
+      },
+      "nombre": "Nombre",
+      "precio": "Precio"
+    }
+  },
+  "inventariomicroservicioApp": {
+    "inventariomicroservicioProducto": {
+      "created": "A new Producto is created with identifier {{ param }}",
+      "updated": "A Producto is updated with identifier {{ param }}",
+      "deleted": "A Producto is deleted with identifier {{ param }}"
+    }
+  }
+}

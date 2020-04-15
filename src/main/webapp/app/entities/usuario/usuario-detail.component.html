@@ -1,0 +1,42 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="usuario">
+            <h2><span jhiTranslate="gatewaystoreApp.usuario.detail.title">Usuario</span> {{ usuario.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="gatewaystoreApp.usuario.nombre">Nombre</span></dt>
+                <dd>
+                    <span>{{ usuario.nombre }}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewaystoreApp.usuario.apellido">Apellido</span></dt>
+                <dd>
+                    <span>{{ usuario.apellido }}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewaystoreApp.usuario.direccion">Direccion</span></dt>
+                <dd>
+                    <span>{{ usuario.direccion }}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewaystoreApp.usuario.user">User</span></dt>
+                <dd>
+                    {{ usuario.user?.id }}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/usuario', usuario.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>
